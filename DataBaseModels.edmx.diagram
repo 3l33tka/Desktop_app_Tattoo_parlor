@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9dd468b4574d4848b35e5c4751bfd0eb" Name="Diagram1" >
+        <EntityTypeShape EntityType="DataBaseModels.Client" Width="1.5" PointX="3.375" PointY="1.75" />
+        <EntityTypeShape EntityType="DataBaseModels.Employee" Width="1.5" PointX="12.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModels.Request" Width="1.5" PointX="6.25" PointY="1.75" />
+        <AssociationConnector Association="DataBaseModels.RequestClient" />
+        <EntityTypeShape EntityType="DataBaseModels.Serviices" Width="1.5" PointX="8.625" PointY="4.75" />
+        <EntityTypeShape EntityType="DataBaseModels.TypeService" Width="1.5" PointX="11" PointY="4.875" />
+        <AssociationConnector Association="DataBaseModels.ServiceTypeService" />
+        <EntityTypeShape EntityType="DataBaseModels.Schedule" Width="1.5" PointX="4.875" PointY="4.75" />
+        <AssociationConnector Association="DataBaseModels.EmployeeSchedule" />
+        <EntityTypeShape EntityType="DataBaseModels.RequestService" Width="1.5" PointX="8.25" PointY="2.25" />
+        <AssociationConnector Association="DataBaseModels.RequestServiceRequest" />
+        <AssociationConnector Association="DataBaseModels.RequestServiceService" />
+        <EntityTypeShape EntityType="DataBaseModels.RequestEmployee" Width="1.5" PointX="2" PointY="4.25" />
+        <AssociationConnector Association="DataBaseModels.RequestEmployeeEmployee" />
+        <AssociationConnector Association="DataBaseModels.RequestEmployeeRequest" />
+        <EntityTypeShape EntityType="DataBaseModels.EmployeeService" Width="1.5" PointX="9.875" PointY="0.5" />
+        <AssociationConnector Association="DataBaseModels.EmployeeServiceEmployee" />
+        <AssociationConnector Association="DataBaseModels.EmployeeServiceService" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
